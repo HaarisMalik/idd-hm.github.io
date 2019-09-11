@@ -4,7 +4,26 @@ This is our first sight!
 ## Meeting: Sept 11,2019      
 
 ###Features
--Student profiles
+ -Header
+   -Logo
+   -Menu 
+-Campuses/Buildings
+  -Photo
+  -Quote
+  -Name
 -Course List
--success stories from alumini
--
+  -Success stories from alumini
+-Footer
+  -Copyright
+  -Social Media Links
+
+### Design Guide
+
+#### Colours
+ -
+ -
+ -
+#### Fonts
+ -
+ -
+ -
