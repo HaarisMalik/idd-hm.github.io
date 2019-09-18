@@ -3,7 +3,7 @@ This is our first sight!
 
 ## Meeting: Sept 11,2019      
 
-###Features
+### Features
  -Header
    -Logo
    -Menu 
