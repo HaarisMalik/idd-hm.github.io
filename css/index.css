@@ -2,7 +2,7 @@
 
 /* colours */
 :root {
---background: #FAFAFF;
+--background: #D8DAD3;
 --header:  #094074;
 --header2: #3F88C5;
 --footer: #1B1725;
@@ -16,14 +16,16 @@
 body{
  font-family: lato;
  background-color: var(--background);
-
+ font-size: 1em;
 
 
 
 }
-a{
-  
+
+p{
+  text-align: center;
 }
+
 .apply {
   text-align: center;
   margin: 2em 0;
@@ -53,4 +55,60 @@ border-radius: 8px;
 }
 .applynow {
   padding-left:40%;
+}
+
+.weblogo{
+  text-align: center;
+  background-color: var(--header);
+  max-width: 100%;
+}
+
+.mainmenu a{
+  text-decoration: none;
+  font-family: lato;
+  margin: 0.5em;
+  font-size:1.5em;
+  color: black;
+  
+}
+
+fieldset{
+  background-color: white;
+
+}
+
+h3{
+  font-size: 1.5em;
+  text-decoration-line: underline;
+}
+
+dt{
+  font-size: 1.5em;
+  text-decoration-style: solid;
+}
+
+dd{
+  font-variant-caps:all-small-caps;
+  font-size: 1.5em;
+  
+}
+
+.open{
+  background-color: green;
+  text-decoration-line: underline;
+}
+
+.closed{
+  background-color: red;
+  text-decoration-line: line-through;
+}
+
+.unknown{
+background-color: grey;
+}
+
+dl{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
 }
