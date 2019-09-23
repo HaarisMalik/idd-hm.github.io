@@ -112,3 +112,44 @@ dl{
   grid-template-columns: 1fr 1fr 1fr 1fr;
 
 }
+
+
+.campustitle{
+  font-size: 1em;
+  text-decoration-line: underline;
+}
+
+.picture{
+  text-align: center;
+  padding: 3em;
+  
+
+  
+}
+.finder{
+  text-align: center;
+  padding: 1em;
+  font-family: lato;
+  font-size: 1.4em;
+  
+}
+
+.finder a{
+
+padding: 0.25em 0.5em;
+border-radius: 8px;
+font-size: 1.5em;
+color: white;
+}
+
+.compare{
+padding-left: 23%;
+padding-top: 5%;
+
+}
+
+.finderbtn{
+background-color: var(--header);
+
+
+}
