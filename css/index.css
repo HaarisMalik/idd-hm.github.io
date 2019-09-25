@@ -72,7 +72,11 @@ border-radius: 8px;
   color: black;
   
 }
+.mainmenu li :hover{
+border-radius: 30px;
+background-color: var(--header2);
 
+}
 fieldset{
   background-color: white;
 
@@ -147,6 +151,11 @@ color: white;
 padding-left: 23%;
 padding-top: 5%;
 
+}
+
+.compare li :hover{
+  border-radius: 30px;
+  background-color: var(--header2);
 }
 
 .finderbtn{
