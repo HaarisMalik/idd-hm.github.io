@@ -90,11 +90,13 @@ h3{
 dt{
   font-size: 1.5em;
   text-decoration-style: solid;
+  padding:0.5em;
 }
 
 dd{
   font-variant-caps:all-small-caps;
   font-size: 1.5em;
+  padding: 0.5em;
   
 }
 
@@ -122,6 +124,7 @@ dl{
 .campustitle{
   font-size: 1em;
   text-decoration-line: underline;
+  padding: 1em;
 }
 
 .picture{
