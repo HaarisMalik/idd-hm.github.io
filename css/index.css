@@ -63,18 +63,24 @@ border-radius: 8px;
   max-width: 100%;
   max-height: 100%;
 }
+.mainmenu{
+  display: grid;  
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  
+}
 
 .mainmenu a{
   text-decoration: none;
   font-family: lato;
   margin: 0.5em;
-  font-size:1.5em;
-  color: black;
+  font-size:1.2em;
+  color: white;
   
 }
+
 .mainmenu li :hover{
 border-radius: 30px;
-background-color: var(--header2);
+background-color: black;
 
 }
 fieldset{
@@ -103,7 +109,9 @@ dd{
 .open{
   background-color: green;
   text-decoration-line: underline;
+  
 }
+
 
 .closed{
   background-color: red;
@@ -188,6 +196,11 @@ label{
   color: white;
 }
 
+.footercampus :hover{
+  background-color: black;
+  border-radius: 30px;
+}
+
 .contact{
   color: white;
   margin: 2em;
@@ -195,16 +208,39 @@ label{
 
 .contact a{
   color: white;
-}
 
+}
+.contact :hover{
+  background-color: black;
+  border-radius: 30px;
+}
 .connect{
  color: white;
  margin: 2em;
-
+ 
 }
-
+.connect :hover{
+background-color: black;
+border-radius: 30px;
+}
 .gbc{
   color: white;
   margin: 2em;
   justify-self: left;
+}
+
+@media screen and (max-width: 680px){
+
+
+.mainmenu {
+  display: block;
+  
+
+}
+  
+
+
+.courselist {
+  display: block;
+}
 }
